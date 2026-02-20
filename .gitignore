@@ -1,0 +1,33 @@
+#================
+# React / Node (Client) FRONTEND
+#================
+client/node_modules/
+client/dist/
+client/.env
+client/.env/local
+client/.env.*.local
+
+
+#================
+# Laravel / PHP (Server) BACKEND
+#================
+server/vendor/
+server/.env
+server/.env.backup
+server/storage/logs/*
+server/storage/framework/cache/*
+server/bootstrap/cache/*
+
+
+#================
+# XAMPP / Local Dev
+#================
+*.log
+Thumbs.db
+.DS_Store
+
+#================
+# VS Code
+#================
+.vscode/
+
